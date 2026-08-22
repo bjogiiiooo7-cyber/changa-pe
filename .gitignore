@@ -1,0 +1,29 @@
+# Expo
+.expo/
+dist/
+npm-debug.*
+.env
+.env.local
+
+# Node
+node_modules/
+.npm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Testing
+.jest/
+coverage/
+
+# Logs
+logs/
+*.log

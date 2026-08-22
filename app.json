@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Changa Pe",
+    "slug": "changa-pe",
+    "version": "0.1.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.bjogiiiooo7cyber.changape"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bjogiiiooo7cyber.changape"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-screen-orientation"
+    ]
+  }
+}

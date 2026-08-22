@@ -1,0 +1,36 @@
+/**
+ * Network Message Types
+ * Defines all messages that can be sent over the network
+ */
+
+export const MESSAGE_TYPES = {
+  // Game lifecycle
+  CREATE_GAME: 'CREATE_GAME',
+  GAME_CREATED: 'GAME_CREATED',
+  JOIN_GAME: 'JOIN_GAME',
+  PLAYER_JOINED: 'PLAYER_JOINED',
+  START_GAME: 'START_GAME',
+  GAME_STARTED: 'GAME_STARTED',
+  END_GAME: 'END_GAME',
+  GAME_ENDED: 'GAME_ENDED',
+
+  // Player actions
+  ROLL_DICE: 'ROLL_DICE',
+  DICE_ROLLED: 'DICE_ROLLED',
+  SELECT_PAWN: 'SELECT_PAWN',
+  PAWN_SELECTED: 'PAWN_SELECTED',
+  MOVE_PAWN: 'MOVE_PAWN',
+  PAWN_MOVED: 'PAWN_MOVED',
+
+  // State management
+  SYNC_STATE: 'SYNC_STATE',
+  STATE_UPDATE: 'STATE_UPDATE',
+  RECONNECT: 'RECONNECT',
+  PLAYER_LEFT: 'PLAYER_LEFT',
+
+  // Errors
+  ERROR: 'ERROR',
+  INVALID_MOVE: 'INVALID_MOVE',
+};
+
+export default MESSAGE_TYPES;
